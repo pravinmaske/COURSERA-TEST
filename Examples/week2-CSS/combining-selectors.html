@@ -14,6 +14,21 @@
 			background-color: lightblue;
 			color: red;
 		}
+
+		/*2. Child selectors: : every article element is direct child of section element..*/
+		section > article{
+			background-color: lightgreen;
+			font-style: italic;
+			font-size: 25;
+		}
+
+		section p{
+				background-color: black;
+			font-style: italic;
+			font-size: 25;		
+			color: gold;
+		}
+
 	</style>
 	<meta charset="utf-8">
 	<title>Combining selectors>.!!</title>
@@ -22,5 +37,31 @@
 <h1 > ELement with Class Selector.!!</h1>
 <p class="highlight ">Hey Guys.. This is pravin and the example is about combining different selectors.. am combining two selectors that are class selector and element selector..!!</p>
 <div class="highlight mainpoint"> This is just highlight class text which has class selector only..</div>
+
+
+<h1>Child selector code..!!</h1>
+<section>
+	<article>This section is affected because article element is the direct child of section element..!!</article>
+
+</section>
+
+	<article>This text wont be affected cuz this is not direct chiled element of section.. of </article>
+<section>
+	<div><article>This text also won't affected cuz this is not direct child element of section element..!!</article></div>
+</section>
+
+
+<h1>Descendent selector code..!!</h1>
+<section>
+	<p>This section is affected because article element is the..!!</p>
+
+</section>
+
+	<p>This text wont be affected cuz this is not direct chiled element of section.. of </p>
+<section>
+	<div><p>This text also affected cuz this is not direct child element of section element..!!</p></div>
+</section>
+
+
 </body>
 </html>
