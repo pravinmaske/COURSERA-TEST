@@ -1,0 +1,51 @@
+body{
+	color: #000;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 1px solid black;
+	
+}
+
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75em;
+
+}
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nav-list a{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000;
+}
+
+.menu-item-description{
+	background-color: gray;
+	border: 1px solid black;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+
+}
+
+.menu-details{
+	padding: 10px;
+}
